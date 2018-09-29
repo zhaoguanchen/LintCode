@@ -26,7 +26,8 @@ public class BitSwapRequired {
     public int bitSwapRequired(int a, int b) {
         // write your code here
         
-        int c = a ^b;
+        int c = a ^ b;
+        // java 自带二进制计数方法
         return Integer.bitCount(c);
         
        
